@@ -1,0 +1,62 @@
+
+body {
+    background-color: #f5f5f5;
+}
+h2{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/*CREAMOS EL CIRCULO QUE OCUPAREMOS EN LOS 3 DIV*/
+.circulo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;  
+}
+/*ASIGNAMOS UN COLOR EL CUAL CAMBIARA SEGUN EL DIV, 
+ESTE ESTA VINCULADO CON EL CIRCULO*/
+.color0{
+   background-color: salmon; 
+}
+
+.color1{
+    background-color: lightgreen;
+}
+
+.color2{
+    background-color: lightseagreen;
+}
+
+/*TAMAÑO DEL DIV CONTENEDOR DE LA CLASE CARD*/
+.ancho {
+    width: 400px;
+}
+/*TAMAÑO BORDES Y COLOR A LA CARD*/
+.card {
+    box-shadow: 0px 0px 5px #ccc, 0px 0px 10px #ccc;
+}
+/*ESTILO PARA EL DIV CONTENEDOR DEL CIRCULO AMARILLO*/
+.circulito{
+    float: right;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%; 
+    background-color: rgb(239, 239, 97);
+}
+ /*LE DAMOS ESTILOS AL DIV QUE VA A A MOSTRAR SOLO UNA LINEA*/
+.linea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ccc;
+    height: 100%;
+    width: 3px;
+}
+
+/*ACUMULAMOS LOS 3 ID PARA DARLE LAS MISMAS PROPIEDADES DE ESTILOS*/
+#rango1, #rango2, #rango3 {
+    margin: 0% 25%;
+    width: 50%;
+    text-align: center;
+}
